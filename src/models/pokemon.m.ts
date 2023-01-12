@@ -5,11 +5,14 @@ export type Pokemon = {
     imgLarge: string,
     imgAnimated: string,
     total: string,
-     hp: string,
-     attack: string,
-     defense: string,
-     sp_atk: string,
-     sp_def: string,
-     speed: string,
-     type : string
+    hp: string,
+    attack: string,
+    defense: string,
+    sp_atk: string,
+    sp_def: string,
+    speed: string,
+    type1 : string,
+    type2 : string,
+    badge1: string,
+    badge2: string
 }
