@@ -19,10 +19,13 @@ const Listado=() => {
             setPokemons(allPokemons);
         }
         obtenerTodos();
+
+
     });
 
     const filtrarPokemon = pokemons.slice(0,151).filter((pokemon) => {
         return pokemon.name.toLowerCase().match(query.toLowerCase())
+        
     })
     return (
         <>
